@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/main_test_navigation"
+            app:startDestination="@id/currentWeatherFragment2">
+
+    <activity android:id="@+id/mainActivity" android:name="com.mervesatmazgmail.forecastmvvm.ui.MainActivity"
+              android:label="activity_main" tools:layout="@layout/activity_main"/>
+    <fragment android:id="@+id/settingsFragment2"
+              android:name="com.mervesatmazgmail.forecastmvvm.ui.settings.SettingsFragment"
+              android:label="SettingsFragment"/>
+    <fragment android:id="@+id/currentWeatherFragment2"
+              android:name="com.mervesatmazgmail.forecastmvvm.ui.weather.current.CurrentWeatherFragment"
+              android:label="current_weather_fragment" tools:layout="@layout/current_weather_fragment"/>
+    <fragment android:id="@+id/futureDetailWeatherFragment2"
+              android:name="com.mervesatmazgmail.forecastmvvm.ui.weather.future.detail.FutureDetailWeatherFragment"
+              android:label="future_detail_weather_fragment" tools:layout="@layout/future_detail_weather_fragment"/>
+</navigation>
