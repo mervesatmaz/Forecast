@@ -1,4 +1,4 @@
-package com.mervesatmazgmail.forecastmvvm.data.response
+package com.mervesatmazgmail.forecastmvvm.data.db.entity
 
 
 import com.google.gson.annotations.SerializedName

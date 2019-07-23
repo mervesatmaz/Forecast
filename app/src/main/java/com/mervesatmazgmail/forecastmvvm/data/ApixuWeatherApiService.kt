@@ -1,15 +1,13 @@
 package com.mervesatmazgmail.forecastmvvm.data
 
-import com.google.gson.Gson
 import com.jakewharton.retrofit2.adapter.kotlin.coroutines.CoroutineCallAdapterFactory
-import com.mervesatmazgmail.forecastmvvm.data.response.CurrentWeatherResponse
+import com.mervesatmazgmail.forecastmvvm.data.db.network.response.CurrentWeatherResponse
 import kotlinx.coroutines.Deferred
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.GET
-import retrofit2.http.HTTP
 import retrofit2.http.Query
 
 const val API_KEY="d8bbd95f66dd4de692370601192307"
