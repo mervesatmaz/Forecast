@@ -1,4 +1,4 @@
-package com.mervesatmazgmail.forecastmvvm.data.db.network.response
+package com.mervesatmazgmail.forecastmvvm.data.network.response
 
 import com.google.gson.annotations.SerializedName
 import com.mervesatmazgmail.forecastmvvm.data.db.entity.CurrentWeatherEntry
